@@ -1,0 +1,193 @@
+/***********
+1. Fonts
+***********/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900");
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+html,
+body {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  color: #a5a5a5;
+}
+div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.85714;
+  font-weight: 500;
+  color: #838293;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+p a {
+  display: inline;
+  position: relative;
+  color: inherit;
+  border-bottom: solid 1px #ffa07f;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+li a {
+  color: #000000 !important;
+}
+a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+p a:active {
+  position: relative;
+  color: #ff6347;
+}
+p a:hover {
+  color: #ffffff;
+  background: #ffa07f;
+}
+p a:hover::after {
+  opacity: 0.2;
+}
+::selection {
+  background: #e1dada;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+section {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.brand-logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #100f3a !important;
+  margin-right: 48px;
+}
+.brand-logo span {
+  color: #8583e1;
+}
+
+#wrapper {
+  height: 100%;
+  padding: 5% 0;
+}
+
+.section-1 {
+  height: 100%;
+}
+
+.section-1 p {
+  padding: 10% 0;
+}
+
+.section-media {
+  height: 100%;
+}
+
+@media screen and (max-width: 872px) {
+  footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .main_subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7a798c;
+    line-height: 0.75;
+  }
+
+  .main_title {
+    font-weight: 800;
+    font-size: 72px;
+    color: #100f3a;
+  }
+  .main_title span {
+    color: #8583e1;
+  }
+}
+
+/* Skills */
+.section-skills img {
+  padding-top: 30px !important;
+}
+
+.clear {
+  clear: both;
+  height: 30px;
+}
+
+.small-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-container h5 {
+  line-height: 2rem;
+  font-weight: 500;
+}
